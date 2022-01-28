@@ -1,0 +1,117 @@
+#wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 24px 48px;
+}
+
+@media screen and (max-width: 1280px) {
+    #wrap {
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #wrap {
+        padding: 14px;
+    }
+}
+
+a.link {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #191919;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width: 1280px) {
+    a.link {
+        font-size: 21px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    a.link {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+h1.title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 80px;
+    color: #191919;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (max-width: 1280px) {
+    h1.title {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    h1.title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+}
+
+h2.sub-title {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #191919;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (max-width: 1280px) {
+    h2.sub-title {
+        font-size: 21px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    h2.sub-title {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+p.main-text {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #191919;
+    font-family: Roboto Mono, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (max-width: 1280px) {
+    p.main-text {
+        font-size: 21px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    p.main-text {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+p.small {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #191919;
+}

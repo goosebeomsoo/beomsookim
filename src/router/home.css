@@ -1,0 +1,15 @@
+#home__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+}
+
+h1.title {
+    margin-bottom: 12px;
+}
+
+h2.sub-title {
+    margin-bottom: 48px;
+}

@@ -1,0 +1,29 @@
+.work__section {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work__section img {
+    width: 100%;
+}
+
+a.linkBtn {
+    display: block;
+    width: max-content;
+    margin: 48px auto;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: 1px solid #191919;
+    color: #191919;
+    font-family: Roboto Mono, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s ease;
+    border-radius: 25px;
+}
+
+a.linkBtn:hover {
+    background: #191919;
+    color: #fff;
+}
